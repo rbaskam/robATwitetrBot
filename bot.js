@@ -23,7 +23,7 @@ const _self = {
 }
 
 const stream = TH.stream('statuses/filter', {
-    track: ['robert-askam', 'robert-askam.co.uk','www.robert-askam.co.uk']
+    track: ['laravel.com', 'laracasts.com','php.net']
 });
 
 stream.on('tweet', (tweet) => {   
