@@ -24,7 +24,7 @@ const _self = {
 }
 
 const stream = TH.stream('statuses/filter', {
-    track: ['laravel.com', 'laracasts.com','php.net', '@golemproject', '@ethereum']
+    track: ['laravel.com', 'laracasts.com','php.net', '@golemproject', '@ethereum', 'laravel', 'php']
 });
 
 stream.on('tweet', (tweet) => {   
